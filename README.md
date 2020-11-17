@@ -7,7 +7,7 @@ yum install net-tools lspci nc mlocate wget vim tcpdump telnet git traceroute nt
 
 Create a VG cinder-volumes 
 
-# RDO Installation
+# Installation
 PREPARATION
 
 vim /etc/environment 
@@ -64,7 +64,7 @@ ONBOOT=yes
 ###
 
 
-# DEPLOY RDO with External Network
+# DEPLOY PACKSTACK with External Network
 packstack --allinone --provision-demo=n --os-neutron-ovs-bridge-mappings=extnet:br-ex --os-neutron-ovs-bridge-interfaces=br-ex:em1 --os-neutron-ml2-type-drivers=vxlan,flat
 
 #BASIC INSTALL using config file
