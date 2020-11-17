@@ -1,4 +1,4 @@
-# RDO---RPM-Distribution-of-OpenStack
+# OpenStack PackStack
 Details to Deploy RDO
 
 OPENSTACK - RDO
