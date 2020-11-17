@@ -1,7 +1,7 @@
 # OpenStack PackStack
 Details to Deploy RDO
 
-OPENSTACK - RDO
+OPENSTACK - PACKSTACK
 
 yum install net-tools lspci nc mlocate wget vim tcpdump telnet git traceroute ntp yum-utils -y
 
